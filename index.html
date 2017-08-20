@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <title>s3506245 Portfolio</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+
+
+</head>
+
+<body>
+  <div id="main">
+    <div id="container-home" class="container--main container--offset">
+      <!--
+      ███    ██  █████  ██    ██ ██  ██████   █████  ████████  ██████  ██████
+      ████   ██ ██   ██ ██    ██ ██ ██       ██   ██    ██    ██    ██ ██   ██
+      ██ ██  ██ ███████ ██    ██ ██ ██   ███ ███████    ██    ██    ██ ██████
+      ██  ██ ██ ██   ██  ██  ██  ██ ██    ██ ██   ██    ██    ██    ██ ██   ██
+      ██   ████ ██   ██   ████   ██  ██████  ██   ██    ██     ██████  ██   ██
+      -->
+      <div class="nav">
+        <div class="nav-horizontal">
+          <div class="nav-left">
+            <div class="sidebar"></div>
+          </div>
+          <div class="nav-mid-h">
+            <a class="works" href="works.html"><span class="works-text">Works</span></a>
+            <a class="contact " href="contact.html"><span class="contact-text">Contact</span></a>
+          </div>
+          <div class="nav-right">
+            <div class="sidebar "></div>
+
+          </div>
+        </div>
+        <div class="nav-vertical">
+          <div class="nav-top"></div>
+          <div class="nav-mid-v">
+            <a class="about blurin" href="about.html"><span class="about-text">About</span></a>
+            <a class="home  hidden" href="index.html"><span class="home-text">Home</span></a>
+
+          </div>
+
+          <div class="nav-bottom"></div>
+        </div>
+      </div>
+
+      <div id="scene" class="m-scene scene_element fadeIn">
+        <div class="grid-background layer scene_element fadeIn" data-depth="0.2"></div>
+
+
+        <div class="layer wrap scene_element fadein " data-depth="0.4"><img src="img/smoke-back.png" class="smoke-back"> </div>
+
+        <div class="layer wrap scene_element fadein" data-depth="-0.2"><img src="img/logo-big.png" class="logo-big"></div>
+
+        <div class="layer wrap scene_element fadein" data-depth="0.6"><img src="img/smoke-mid.png" class="smoke-mid"></div>
+
+        <div class="layer wrap scene_element fadein" data-depth="0.1"><img class="character" src="img/me.png"></div>
+
+        <div class="layer wrap scene_element fadein" data-depth="0.8"><img src="img/smoke-front2.png" class="smoke-front2"> </div>
+        <div class="layer wrap scene_element fadein" data-depth="1"> <img src="img/smoke-front1.png" class="smoke-front1 "></div>
+        <div class="slogan ">
+          Design. <br> Draw. <br> Dream.
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+    <!-- Scripts -->
+
+    <script src="js/jquery.smoothState.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/parallax.js"></script>
+    <script type="text/javascript">
+      var scene = document.getElementById('scene');
+      var parallax = new Parallax(scene);
+    </script>
+  </div>
+
+
+
+
+</body>
+
+</html>
